@@ -1,0 +1,196 @@
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 08:47:46] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 08:47:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+ERROR:app:Exception on /crop [POST]
+Traceback (most recent call last):
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: PredictCrop() missing 1 required positional argument: 'req_data'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:26:28] "[1m[35mPOST /crop HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /crop [POST]
+Traceback (most recent call last):
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: PredictCrop() missing 1 required positional argument: 'req_data'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:27:57] "[1m[35mPOST /crop HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /crop [POST]
+Traceback (most recent call last):
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: PredictCrop() missing 1 required positional argument: 'req_data'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:28:08] "[1m[35mPOST /crop HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:28:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+ERROR:app:Exception on /crop [POST]
+Traceback (most recent call last):
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: PredictCrop() missing 1 required positional argument: 'req_data'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:29:00] "[1m[35mPOST /crop HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+ERROR:app:Exception on /crop [POST]
+Traceback (most recent call last):
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: PredictCrop() missing 1 required positional argument: 'req_data'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:29:36] "[1m[35mPOST /crop HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /crop [POST]
+Traceback (most recent call last):
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: PredictCrop() missing 1 required positional argument: 'req_data'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:31:02] "[1m[35mPOST /crop HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+ERROR:app:Exception on /crop [POST]
+Traceback (most recent call last):
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: PredictCrop() missing 1 required positional argument: 'req_data'
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:32:05] "[1m[35mPOST /crop HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:32:41] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:33:16] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:34:25] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:34:48] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:35:50] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:36:07] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:36:28] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:36:50] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:37:04] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:37:42] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:38:12] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:38:31] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:38:54] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:39:14] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:40:17] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 09:40:40] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 10:23:28] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 10:24:50] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 10:26:15] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 10:26:28] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 10:28:12] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 10:28:43] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 10:29:01] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 10:29:18] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 10:30:01] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 10:30:08] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 10:30:14] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 10:31:06] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 12:24:42] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 12:25:04] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 12:47:45] "[37mPOST /crop HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+ERROR:app:Exception on /fertilizer [POST]
+Traceback (most recent call last):
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nns/anaconda3/lib/python3.7/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 13:08:56] "[1m[35mPOST /fertilizer HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 13:48:47] "[37mPOST /fertilizer HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5555/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2020 13:49:05] "[37mPOST /fertilizer HTTP/1.1[0m" 200 -
