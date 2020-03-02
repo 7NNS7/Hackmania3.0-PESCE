@@ -12,6 +12,7 @@ crop_name = ""
 def PredictCrop():
     try:
         #print("inside")
+        print(flask.request.headers)
         req_data=flask.request.get_json()
         a = {}
         #API call from shivu to get temp and humidity
